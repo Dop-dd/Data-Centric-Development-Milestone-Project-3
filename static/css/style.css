@@ -73,6 +73,11 @@ nav .nav-wrapper {
   margin-top: 20px;
 }
 
+.services-text {
+    font-size: 1rem;
+    text-align: center;
+}
+
 /*- Headings */
 
 #main-heading {
@@ -541,6 +546,20 @@ footer p {
   #driver-text {
     display: none;
   }
+
+}
+
+@media only screen and (min-width: 768px) {
+.services-container {
+    width: 90%;
+ }
+ .services-text {
+    font-size: 15px;
+    text-align: center;
+}
+}
+
+@media only screen and (min-width: 800px) {
 
 }
 

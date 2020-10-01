@@ -8,9 +8,10 @@
 CityCabs Agency is a small but reliable cab service. The project is inspired by the cabby service concept. Users can book cabs 
 for different destinations nationwide. 
 
-There's also opportunity for new drivrs to join the company by signing up and adding their vehiclesas part of the collection. Services range from city tours, to out of town escurtions, from airport service to camper vans for those who wish to go aay on holidays.
+There's also opportunity for new drivrs to join the company by adding their vehicles as part of the collection. Services range from city tours, to out of town escurtions, from airport service to camper vans for those who wish to go aay on holidays.
 we try to put some emphasis in our drivers who join our company. That way, set forth our reputation as being a reputable company.
 The site contains basic information for anyone who wants to book a cab or drive for a cab agency and be their own boss.
+
 
 
 
@@ -24,13 +25,21 @@ This project is for anyone who may need to book a cab for different servces.
 
 The site is comprised of five main sections. Each of these section is made up of sub sctions which are the pages for the website.
 These consists primarily of Cab, Brands,, Types, Users and Admin sections.
+Only registered userd can access the Dashboard. The 'register' link is not available on the navbar. Users have to contact the company via using he contact form. The company receives an email via EmailJs. they sign he new user up and once signed, new users can 
+manage cabs from within the Dashboard.
 
 The Home page contains information about the services on offer.
 The navigation bar contains the following links:
-Cabs - here users can see all availabe cabs which they can click and book.
+Home -  This is the home page
+Cabs - Here users can see all availabe cabs which they can click and book.
 Add Cab - New drivers can upload cab information and their details directly using this link.
 Log In -  registered users can login to the cab agency
 Contact - new users can request more information or sign up registeration here . 
+Admin - Only available to registered users. It consist of the following pages:
+  1. Profile page - users can vies their profile here  
+  2. Dashboard - Users can perform admin tasks here such as view, add, update and delete vehicle types or brands
+  3. Log out - Logged users can sign out using this link
+  4. Register - New users can be registered via this link
 
 For consistency of user experience the site's logo, navigation links and social
 media links on the page footer are repeated across the site's pages. The design and layout is also consistent when viewed on desktop, tablet or mobile
@@ -60,7 +69,7 @@ devices. The use of Materialize enables the site elements to rearrange themselve
 
 ## Features
 
-The website is made up of 23 pages. 
+The website is made up of 21 pages. 
 -Navigation:
   -The website is easy to navigate through the various pages. The navigation is fixed to the top and is consistent on all web pages.
 - Visuals: 
@@ -102,7 +111,9 @@ The website is made up of 23 pages.
 - Log in form- A registered user can log in to the admin section 
 - Sign up form- A user can sign up fo a free membership by filling in the form on the sign up page.
 - Contact Page- User can contact the company directly via this form. Their request send an email to the compnay using EmailJs
-- Search form- Users can search for available or booked cabs 
+- Search form- Users can search for available cabs
+  - Non registered users can only search for cabs using the 'cabs' link. 
+  - Registered users can perforsm a search from the dashboad and edit or delete cab entries.
 - MongoDB- Users records are stored in the database. cab pictures can be added via url links and inserted in the template on cabs page
 
 ### Features left to implement
@@ -156,6 +167,10 @@ This projet is built using HTML, CSS, Javascript, jQuery and Materialize
 
 ## Testing
 
+### The following Log in credentials have been created For the tutors to access the Admin section
+#### username: tutor    password: Milestone3
+#### username: mentor   password: project3
+
 1. Site Navifation:
    1. from home page navigate to the other pages on the website. The link s work as intended.
    2. clicking on the logo brings you to the home page.
@@ -168,14 +183,11 @@ This projet is built using HTML, CSS, Javascript, jQuery and Materialize
    1. Open this website on mobile version. This content is set to hide on small screens less than 763px
 
 4. Cabs Page:
-   1. Go to Cabs page. Enter a vehicle type or model in the search box. Click search or cancel to stop the search. The results are displayed   in a separate page.
+   1. Go to Cabs page. Enter a vehicle type or model in the search box. Click search or cancel to stop the search. The results are displayed in a separate page.
    
 5. Add Cab Page:
    1. Fill in the form. You can only choose from the given vehicle types, brands and models in the drop-down options
    2. Fill your information and add a url link for a picture of the cab. Click on Book it. It takes you to the "Cabs Page"
-
-5. View Bookings Page:
-   1. Go to "View Bookings" page. Enter a vehicle type or model in the search box. Click search or cancel to stop the search. The results       are displayed in a separate page.
         
 6. Register Form:
    1. Only accessible from the admin Dashboad page. New users have to request explicitely to have access to this page .
@@ -183,6 +195,7 @@ This projet is built using HTML, CSS, Javascript, jQuery and Materialize
    3. Submit the form with an invalid email and see a message asking you to fill the information in the required fields 
    4. Try to submit a form with password shorter than 5 characters or longer than 15 characters. You get an error message
    5. Try to submit a form by clicking on the Log In link. It take you to the Log In page where you can log in if you already have an account
+   6. User is notified of 'Username already in DB' if they try to create a new account with an already existing name
 
 7. Log In Form:
    1. Go to the "Log In" page. Log in or click on "Request Account" if you haven't yet got an account
@@ -194,11 +207,16 @@ This projet is built using HTML, CSS, Javascript, jQuery and Materialize
 9. Contact Form:
    1. Go to the "Contact" page. Send your message or "Request Account" if you haven't yet got an account
 
-10. Social Media icons:
+10. Dashboard Page:
+   1. Go to "Log in" page. Enter a valid login or request for login details via the 'contact form'. 
+   2. From the Dashboard type or vehicle typt or brand in the search box. Click search or cancel to stop the search. The results         are displayed in a separate page.
+   3. Search results displayed from the dashboard can be further edited. Cabs can be added, deleted or updated
+   
+11. Social Media icons:
    1. Go to the footer section at the bottom of each page
    2. Try clicking on any social icons. They each open in separate tabs 
  
-11. Tablets and mobiles:
+12. Tablets and mobiles:
     1. The website is optimized for mobile viewing. The media queries display the pages correctly.
     2. Try running the page in mobile mode and see how it correctly fits to the size of the screen 
   

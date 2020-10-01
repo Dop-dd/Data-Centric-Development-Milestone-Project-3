@@ -61,16 +61,19 @@
         </p>
       </div>
 
-      <div id="book-thisCab">
-        <a
-          href="{{ url_for('get_one', cab_id=cab._id)}}"
-          class="waves-effect waves-light btn btn-style book_btn blue"
-          >go to cab</a
-        >
+      <!-- <<back Btn-->
+	<div id="book-thisCab">
+		<a href="{{ url_for('get_one', cab_id=cab._id)}}" class="waves-effect waves-light btn btn-style book_btn blue">Back to
+			Dashboard</a>
       </div>
     </div>
   </div>
   {% endfor%}
+  <br><br>
+   <div class="center-align">
+<a href="{{ url_for('admin_page') }}" class="waves-effectblue blue waves-light btn">
+	<span class="material-icons"></span>Back to Dashboard</a>
+    </div><br><br>
 </div>
 
 {% endblock%}

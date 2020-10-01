@@ -168,8 +168,10 @@ This projet is built using HTML, CSS, Javascript, jQuery and Materialize
 ## Testing
 
 ### The following Log in credentials have been created For the tutors to access the Admin section
-#### username: tutor    password: Milestone3
-#### username: mentor   password: project3
+#### username: tutor    
+#### password: Milestone3
+#### username: mentor  
+#### password: project3
 
 1. Site Navifation:
    1. from home page navigate to the other pages on the website. The link s work as intended.

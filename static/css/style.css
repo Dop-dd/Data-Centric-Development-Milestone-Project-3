@@ -458,10 +458,17 @@ nav .nav-wrapper {
   margin-bottom: 350px;
 }
 
+.notfound-container {
+  padding: 30px;
+  margin-top: 160px;
+  margin-bottom: 350px;
+    
+}
+
 .login-container {
   height: 500px;
   width: 40%;
-  margin-bottom: 250px;
+  margin-bottom: 230px;
   margin-top: 100px;
 }
 
@@ -534,9 +541,9 @@ ul:not(.browser-default) > li {
 footer p {
   font-size: 16px;
 }
-/*--------- End of Social Media--------*/
+/*------ End of Social Media------*/
 
-/*-------------Media Queries------------*/
+/*--------------------------------------------Media Queries------------*/
 
 @media screen and (max-width: 1350px) {
     #cover-text {
@@ -557,11 +564,69 @@ footer p {
     font-size: 15px;
     text-align: center;
 }
+
+ .addCab-container {
+    padding: 20px;
+     width: 90%;
+  }
+
+  .addType-container {
+    width: 90%;
+    padding: 0px;
+  }
+
+  .addBrand-container {
+    width: 90%;
+    padding: 10px;
+    margin-top: 90px;
+    margin-bottom: 300px;
+  }
+
+ .registe-container {
+    width: 90%;
+    margin-top: 32px;
+    padding: 0px;
+    margin-bottom: 150px;
+  }
+
+  .profile-container {
+    padding: 30px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    width: 90%;
+  }
+
+  .notfound-container {
+    padding: 30px;
+    margin-top: 150px;
+    margin-bottom: 300px;
+    width: 90%;
+  }
+
+
+  .admin-desc {
+    font-size: 18px;
+  }
+
+  .admin-container {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 90%;
+  }
+
+    .cancel-btn {
+    margin-top: 10px;
+  }
+
+  i.right {
+    float: right;
+    margin-left: 0px;
+}
 }
 
-@media only screen and (min-width: 800px) {
 
 }
+/*--------------------------------------------------------------------*/
 
 @media screen and (max-width: 743px) {
   .container-cover {
@@ -684,6 +749,13 @@ footer p {
   }
 
   .profile-container {
+    padding: 0px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+  }
+
+  
+  .notfound-container {
     padding: 0px;
     margin-top: 50px;
     margin-bottom: 10px;

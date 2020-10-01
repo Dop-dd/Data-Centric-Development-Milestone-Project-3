@@ -4,7 +4,12 @@
 
 <div class="container results-container">
   <h4 class="page-headings">Results admin</h4>
-  <!-- trial----->
+  <!-- Back Btn----->
+  <div class="center-align">
+<a href="{{ url_for('admin_page') }}" class="waves-effectblue blue waves-light btn">
+	<span class="material-icons"></span>Back to Dashboard</a>
+    </div><br><br>
+
   {% for cab in cabs %}
   <div class="row grey lighten-5">
     <div class="col s12 m4 l4">

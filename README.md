@@ -8,7 +8,7 @@
 CityCabs Agency is a small but reliable cab service. The project is inspired by the cabby service concept. Users can book cabs 
 for different destinations nationwide. 
 
-There's also opportunity for new drivrs to join the company by signing up and adding their vehiclesas part of the collection. Services range from city tours, to out of town escurtions, from airport service to camper vans for those who wish to go aay on holidays.
+There's also opportunity for new drivers to join the company by signing up and adding their vehicles part of the collection. Services range from city tours, to out of town escurtions, from airport service to camper vans for those who wish to go aay on holidays.
 we try to put some emphasis in our drivers who join our company. That way, set forth our reputation as being a reputable company.
 The site contains basic information for anyone who wants to book a cab or drive for a cab agency and be their own boss.
 
@@ -23,7 +23,7 @@ The site contains basic information for anyone who wants to book a cab or drive 
 This project is for anyone who may need to book a cab for different servces.  
 
 The site is comprised of five main sections. Each of these section is made up of sub sctions which are the pages for the website.
-These consists primarily of Cab, Brands,, Types, Users and Admin sections.
+These consists primarily of Cab, Brands, Types, Users and Admin sections.
 
 The Home page contains information about the services on offer.
 The navigation bar contains the following links:
@@ -156,8 +156,8 @@ This projet is built using HTML, CSS, Javascript, jQuery and Materialize
 
 ## Testing
 
-1. Site Navifation:
-   1. from home page navigate to the other pages on the website. The link s work as intended.
+1. Site Navigation:
+   1. from home page navigate to the other pages on the website. The links work as intended.
    2. clicking on the logo brings you to the home page.
 
 2. Home Page:

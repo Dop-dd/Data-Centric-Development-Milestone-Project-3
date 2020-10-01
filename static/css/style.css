@@ -165,7 +165,7 @@ nav .nav-wrapper {
 
 .page-footer {
   margin-top: 50px;  
-  height: 170px;
+  height: 160px;
   background-color: rgba(63, 70, 36, 0.8);
 }
 
@@ -194,6 +194,10 @@ nav .nav-wrapper {
   border: none;
   margin-top: 20px;
 }
+ 
+ .cancel-btn {
+    margin-top: 0px;
+  }
 
 .model-display {
   background-color: grey;
@@ -336,7 +340,7 @@ nav .nav-wrapper {
 
 .results-container {
   margin-top: 120px;
-  margin-bottom: 350px;
+  margin-bottom: 30px;
 }
 
 /*-------Add Booking Page --*/
@@ -556,7 +560,7 @@ footer p {
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 993px) {
 .services-container {
     width: 90%;
  }
@@ -564,69 +568,10 @@ footer p {
     font-size: 15px;
     text-align: center;
 }
-
- .addCab-container {
-    padding: 20px;
-     width: 90%;
-  }
-
-  .addType-container {
-    width: 90%;
-    padding: 0px;
-  }
-
-  .addBrand-container {
-    width: 90%;
-    padding: 10px;
-    margin-top: 90px;
-    margin-bottom: 300px;
-  }
-
- .registe-container {
-    width: 90%;
-    margin-top: 32px;
-    padding: 0px;
-    margin-bottom: 150px;
-  }
-
-  .profile-container {
-    padding: 30px;
-    margin-top: 150px;
-    margin-bottom: 300px;
-    width: 90%;
-  }
-
-  .notfound-container {
-    padding: 30px;
-    margin-top: 150px;
-    margin-bottom: 300px;
-    width: 90%;
-  }
-
-
-  .admin-desc {
-    font-size: 18px;
-  }
-
-  .admin-container {
-    margin-top: 50px;
-    margin-bottom: 20px;
-    width: 90%;
-  }
-
-    .cancel-btn {
-    margin-top: 10px;
-  }
-
-  i.right {
-    float: right;
-    margin-left: 0px;
-}
+ 
 }
 
-
-}
-/*--------------------------------------------------------------------*/
+/*------Media Queries  max-width 743-------*/
 
 @media screen and (max-width: 743px) {
   .container-cover {
@@ -681,7 +626,7 @@ footer p {
 
   .page-footer {
     margin-top: 50px;   
-    height: 295px;
+    height: 275px;
     background-color: rgba(63, 70, 36, 0.8);
   }
 
@@ -758,7 +703,7 @@ footer p {
   .notfound-container {
     padding: 0px;
     margin-top: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 120px;
   }
 
   .admin-desc {
@@ -896,7 +841,7 @@ footer p {
 
   .social-sub {
     position: absolute;
-    left: 20px;
+    left: 10px;
   }
 
   .left {
